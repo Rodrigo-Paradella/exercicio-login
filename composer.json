@@ -1,0 +1,42 @@
+{
+    "name": "forseti/bot-login",
+    "description": "Projeto que busca infromações no site Login",
+    "homepage": "http://forseti.com.br",
+
+    "require": {
+        "symfony/dom-crawler": "^3.2",
+        "symfony/css-selector": "^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "forseti/logger": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+
+    "keywords": [
+        "bot",
+        "login"
+    ],
+
+    "authors": [
+        {
+            "name": "Rodrigo dos Santos Paradella",
+            "email": "rodrigo.paradella@forseti.com.br"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Bot\\Login\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Forseti\\Bot\\Login\\Test\\": "tests/"
+        }
+    },
+
+    "minimum-stability": "stable"
+}
+
